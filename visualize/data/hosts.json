@@ -1,0 +1,2004 @@
+{
+  "items": [
+    {
+      "Hosts": {
+        "cluster_name": "cluster1",
+        "host_name": "host1",
+        "host_state": "HEALTHY",
+        "public_host_name": "host1.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21506643,
+            "used": 28508805,
+            "percent": "43%",
+            "size": 50015449,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2034456
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster1",
+        "host_name": "host2",
+        "host_state": "HEALTHY",
+        "public_host_name": "host2.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 4502401,
+            "used": 45524281,
+            "percent": "9%",
+            "size": 50026683,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2070144
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster1",
+        "host_name": "host3",
+        "host_state": "HEALTHY",
+        "public_host_name": "host3.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 500750,
+            "used": 49574262,
+            "percent": "1%",
+            "size": 50075013,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2078033
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster1",
+        "host_name": "host4",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host4.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 10501908,
+            "used": 39507181,
+            "percent": "21%",
+            "size": 50009090,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2083698
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster2",
+        "host_name": "host5",
+        "host_state": "HEALTHY",
+        "public_host_name": "host5.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 19021850,
+            "used": 31035650,
+            "percent": "38%",
+            "size": 50057501,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2070997
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster2",
+        "host_name": "host6",
+        "host_state": "HEALTHY",
+        "public_host_name": "host6.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18006024,
+            "used": 32010710,
+            "percent": "36%",
+            "size": 50016735,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2076829
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster2",
+        "host_name": "host7",
+        "host_state": "HEALTHY",
+        "public_host_name": "host7.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18533615,
+            "used": 31557236,
+            "percent": "37%",
+            "size": 50090852,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2068673
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster2",
+        "host_name": "host8",
+        "host_state": "HEALTHY",
+        "public_host_name": "host8.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 2500653,
+            "used": 47512408,
+            "percent": "5%",
+            "size": 50013062,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2083621
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster3",
+        "host_name": "host9",
+        "host_state": "HEALTHY",
+        "public_host_name": "host9.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 10006297,
+            "used": 40025190,
+            "percent": "20%",
+            "size": 50031488,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2082141
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster3",
+        "host_name": "host10",
+        "host_state": "HEALTHY",
+        "public_host_name": "host10.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 11517775,
+            "used": 38559510,
+            "percent": "23%",
+            "size": 50077286,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2053790
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster3",
+        "host_name": "host11",
+        "host_state": "HEALTHY",
+        "public_host_name": "host11.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18026018,
+            "used": 32046255,
+            "percent": "36%",
+            "size": 50072274,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2088087
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster3",
+        "host_name": "host12",
+        "host_state": "HEALTHY",
+        "public_host_name": "host12.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 22515590,
+            "used": 27519055,
+            "percent": "45%",
+            "size": 50034646,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2096063
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster4",
+        "host_name": "host13",
+        "host_state": "HEALTHY",
+        "public_host_name": "host13.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 7001549,
+            "used": 43009516,
+            "percent": "14.000000000000002%",
+            "size": 50011066,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2097046
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster4",
+        "host_name": "host14",
+        "host_state": "HEALTHY",
+        "public_host_name": "host14.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 1501096,
+            "used": 48535449,
+            "percent": "3%",
+            "size": 50036546,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2028144
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster4",
+        "host_name": "host15",
+        "host_state": "HEALTHY",
+        "public_host_name": "host15.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20033108,
+            "used": 30049663,
+            "percent": "40%",
+            "size": 50082772,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2079650
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster4",
+        "host_name": "host16",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host16.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 10520401,
+            "used": 39576750,
+            "percent": "21%",
+            "size": 50097152,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2024388
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster5",
+        "host_name": "host17",
+        "host_state": "INIT",
+        "public_host_name": "host17.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 19012964,
+            "used": 31021151,
+            "percent": "38%",
+            "size": 50034116,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2070227
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster5",
+        "host_name": "host18",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host18.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 6003602,
+            "used": 44026416,
+            "percent": "12%",
+            "size": 50030019,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2062254
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster5",
+        "host_name": "host19",
+        "host_state": "HEALTHY",
+        "public_host_name": "host19.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 2502353,
+            "used": 47544719,
+            "percent": "5%",
+            "size": 50047073,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2067716
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster5",
+        "host_name": "host20",
+        "host_state": "HEALTHY",
+        "public_host_name": "host20.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 500759,
+            "used": 49575194,
+            "percent": "1%",
+            "size": 50075954,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2091031
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster6",
+        "host_name": "host21",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host21.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 15529008,
+            "used": 34564568,
+            "percent": "31%",
+            "size": 50093577,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2057612
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster6",
+        "host_name": "host22",
+        "host_state": "HEALTHY",
+        "public_host_name": "host22.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 26009656,
+            "used": 24008914,
+            "percent": "52%",
+            "size": 50018571,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2025307
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster6",
+        "host_name": "host23",
+        "host_state": "HEALTHY",
+        "public_host_name": "host23.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 500477,
+            "used": 49547239,
+            "percent": "1%",
+            "size": 50047717,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2043322
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster6",
+        "host_name": "host24",
+        "host_state": "HEALTHY",
+        "public_host_name": "host24.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 12515806,
+            "used": 37547418,
+            "percent": "25%",
+            "size": 50063224,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2098432
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster7",
+        "host_name": "host25",
+        "host_state": "HEALTHY",
+        "public_host_name": "host25.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 26502754,
+            "used": 23502442,
+            "percent": "53%",
+            "size": 50005197,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2069006
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster7",
+        "host_name": "host26",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host26.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 14004854,
+            "used": 36012481,
+            "percent": "28.000000000000004%",
+            "size": 50017336,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2057881
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster7",
+        "host_name": "host27",
+        "host_state": "HEALTHY",
+        "public_host_name": "host27.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 23031451,
+            "used": 27036920,
+            "percent": "46%",
+            "size": 50068372,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2091026
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster7",
+        "host_name": "host28",
+        "host_state": "HEALTHY",
+        "public_host_name": "host28.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 23523450,
+            "used": 26526443,
+            "percent": "47%",
+            "size": 50049894,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2007820
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster8",
+        "host_name": "host29",
+        "host_state": "HEALTHY",
+        "public_host_name": "host29.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20534037,
+            "used": 29548980,
+            "percent": "41%",
+            "size": 50083018,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2030642
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster8",
+        "host_name": "host30",
+        "host_state": "HEALTHY",
+        "public_host_name": "host30.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 7510186,
+            "used": 42557722,
+            "percent": "15%",
+            "size": 50067909,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2033709
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster8",
+        "host_name": "host31",
+        "host_state": "HEALTHY",
+        "public_host_name": "host31.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 1000574,
+            "used": 49028147,
+            "percent": "2%",
+            "size": 50028722,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2040818
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster8",
+        "host_name": "host32",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host32.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 6510579,
+            "used": 43570797,
+            "percent": "13%",
+            "size": 50081377,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2056650
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster9",
+        "host_name": "host33",
+        "host_state": "HEALTHY",
+        "public_host_name": "host33.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 6508832,
+            "used": 43559112,
+            "percent": "13%",
+            "size": 50067945,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2091086
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster9",
+        "host_name": "host34",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host34.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 16022303,
+            "used": 34047394,
+            "percent": "32%",
+            "size": 50069698,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2059440
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster9",
+        "host_name": "host35",
+        "host_state": "HEALTHY",
+        "public_host_name": "host35.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 4505388,
+            "used": 45554483,
+            "percent": "9%",
+            "size": 50059872,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2030015
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster9",
+        "host_name": "host36",
+        "host_state": "HEALTHY",
+        "public_host_name": "host36.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 500745,
+            "used": 49573820,
+            "percent": "1%",
+            "size": 50074566,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2036786
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster10",
+        "host_name": "host37",
+        "host_state": "HEALTHY",
+        "public_host_name": "host37.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18516671,
+            "used": 31528385,
+            "percent": "37%",
+            "size": 50045057,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2000169
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster10",
+        "host_name": "host38",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host38.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 3004361,
+            "used": 47068327,
+            "percent": "6%",
+            "size": 50072689,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2065127
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster10",
+        "host_name": "host39",
+        "host_state": "HEALTHY",
+        "public_host_name": "host39.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 13505844,
+            "used": 36515803,
+            "percent": "27%",
+            "size": 50021648,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2029293
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster10",
+        "host_name": "host40",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host40.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 9012799,
+            "used": 41058311,
+            "percent": "18%",
+            "size": 50071111,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2012435
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster11",
+        "host_name": "host41",
+        "host_state": "HEALTHY",
+        "public_host_name": "host41.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 16008171,
+            "used": 34017364,
+            "percent": "32%",
+            "size": 50025536,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2030257
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster11",
+        "host_name": "host42",
+        "host_state": "UNHEALTHY",
+        "public_host_name": "host42.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 15529805,
+            "used": 34566342,
+            "percent": "31%",
+            "size": 50096148,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2065979
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster11",
+        "host_name": "host43",
+        "host_state": "INIT",
+        "public_host_name": "host43.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 19507463,
+            "used": 30511673,
+            "percent": "39%",
+            "size": 50019137,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2057125
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster11",
+        "host_name": "host44",
+        "host_state": "HEALTHY",
+        "public_host_name": "host44.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 27547863,
+            "used": 22539161,
+            "percent": "55.00000000000001%",
+            "size": 50087025,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2028110
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster12",
+        "host_name": "host45",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host45.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 12006822,
+            "used": 38021606,
+            "percent": "24%",
+            "size": 50028429,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2059085
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster12",
+        "host_name": "host46",
+        "host_state": "HEALTHY",
+        "public_host_name": "host46.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 24516813,
+            "used": 25517500,
+            "percent": "49%",
+            "size": 50034314,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2014517
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster12",
+        "host_name": "host47",
+        "host_state": "HEALTHY",
+        "public_host_name": "host47.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 23535896,
+            "used": 26540479,
+            "percent": "47%",
+            "size": 50076376,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2007145
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster12",
+        "host_name": "host48",
+        "host_state": "INIT",
+        "public_host_name": "host48.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 3505999,
+            "used": 46579712,
+            "percent": "7.000000000000001%",
+            "size": 50085712,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2009687
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster13",
+        "host_name": "host49",
+        "host_state": "HEALTHY",
+        "public_host_name": "host49.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20507447,
+            "used": 29510717,
+            "percent": "41%",
+            "size": 50018165,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2063812
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster13",
+        "host_name": "host50",
+        "host_state": "HEALTHY",
+        "public_host_name": "host50.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 9002824,
+            "used": 41012864,
+            "percent": "18%",
+            "size": 50015689,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2093068
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster13",
+        "host_name": "host51",
+        "host_state": "HEALTHY",
+        "public_host_name": "host51.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 10013412,
+            "used": 40053648,
+            "percent": "20%",
+            "size": 50067060,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2015020
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster13",
+        "host_name": "host52",
+        "host_state": "HEALTHY",
+        "public_host_name": "host52.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 26522974,
+            "used": 23520374,
+            "percent": "53%",
+            "size": 50043349,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2056010
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster14",
+        "host_name": "host53",
+        "host_state": "HEALTHY",
+        "public_host_name": "host53.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 4502886,
+            "used": 45529181,
+            "percent": "9%",
+            "size": 50032068,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2021142
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster14",
+        "host_name": "host54",
+        "host_state": "HEALTHY",
+        "public_host_name": "host54.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18530578,
+            "used": 31552066,
+            "percent": "37%",
+            "size": 50082645,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2070094
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster14",
+        "host_name": "host55",
+        "host_state": "HEALTHY",
+        "public_host_name": "host55.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 12014703,
+            "used": 38046559,
+            "percent": "24%",
+            "size": 50061263,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2026202
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster14",
+        "host_name": "host56",
+        "host_state": "HEALTHY",
+        "public_host_name": "host56.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20004502,
+            "used": 30006754,
+            "percent": "40%",
+            "size": 50011257,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2047806
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster15",
+        "host_name": "host57",
+        "host_state": "INIT",
+        "public_host_name": "host57.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21541204,
+            "used": 28554620,
+            "percent": "43%",
+            "size": 50095825,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2078091
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster15",
+        "host_name": "host58",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host58.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21026628,
+            "used": 29036772,
+            "percent": "42%",
+            "size": 50063401,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2025519
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster15",
+        "host_name": "host59",
+        "host_state": "HEALTHY",
+        "public_host_name": "host59.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 19525730,
+            "used": 30540244,
+            "percent": "39%",
+            "size": 50065975,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2066805
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster15",
+        "host_name": "host60",
+        "host_state": "HEALTHY",
+        "public_host_name": "host60.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 17511244,
+            "used": 32520882,
+            "percent": "35%",
+            "size": 50032127,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2048312
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster16",
+        "host_name": "host61",
+        "host_state": "HEALTHY",
+        "public_host_name": "host61.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20027102,
+            "used": 30040654,
+            "percent": "40%",
+            "size": 50067757,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2086329
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster16",
+        "host_name": "host62",
+        "host_state": "HEALTHY",
+        "public_host_name": "host62.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 29002280,
+            "used": 21001651,
+            "percent": "57.99999999999999%",
+            "size": 50003932,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2057666
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster16",
+        "host_name": "host63",
+        "host_state": "HEALTHY",
+        "public_host_name": "host63.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 11511477,
+            "used": 38538426,
+            "percent": "23%",
+            "size": 50049904,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2096965
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster16",
+        "host_name": "host64",
+        "host_state": "HEALTHY",
+        "public_host_name": "host64.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 4002738,
+            "used": 46031487,
+            "percent": "8%",
+            "size": 50034226,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2070497
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster17",
+        "host_name": "host65",
+        "host_state": "HEALTHY",
+        "public_host_name": "host65.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 7510119,
+            "used": 42557341,
+            "percent": "15%",
+            "size": 50067461,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2086134
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster17",
+        "host_name": "host66",
+        "host_state": "HEALTHY",
+        "public_host_name": "host66.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 1001974,
+            "used": 49096756,
+            "percent": "2%",
+            "size": 50098731,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2062290
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster17",
+        "host_name": "host67",
+        "host_state": "HEALTHY",
+        "public_host_name": "host67.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 16025274,
+            "used": 34053709,
+            "percent": "32%",
+            "size": 50078984,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2031448
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster17",
+        "host_name": "host68",
+        "host_state": "HEALTHY",
+        "public_host_name": "host68.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18529388,
+            "used": 31550040,
+            "percent": "37%",
+            "size": 50079429,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2025780
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster18",
+        "host_name": "host69",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host69.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 8510152,
+            "used": 41549566,
+            "percent": "17%",
+            "size": 50059719,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2048163
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster18",
+        "host_name": "host70",
+        "host_state": "HEALTHY",
+        "public_host_name": "host70.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 22024994,
+            "used": 28031810,
+            "percent": "44%",
+            "size": 50056805,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2063589
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster18",
+        "host_name": "host71",
+        "host_state": "HEALTHY",
+        "public_host_name": "host71.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 28005052,
+            "used": 22003970,
+            "percent": "56.00000000000001%",
+            "size": 50009023,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2047535
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster18",
+        "host_name": "host72",
+        "host_state": "HEALTHY",
+        "public_host_name": "host72.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21531738,
+            "used": 28542071,
+            "percent": "43%",
+            "size": 50073810,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2038862
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster19",
+        "host_name": "host73",
+        "host_state": "HEALTHY",
+        "public_host_name": "host73.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 12505686,
+            "used": 37517059,
+            "percent": "25%",
+            "size": 50022746,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2063247
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster19",
+        "host_name": "host74",
+        "host_state": "HEALTHY",
+        "public_host_name": "host74.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 22511664,
+            "used": 27514256,
+            "percent": "45%",
+            "size": 50025920,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2045125
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster19",
+        "host_name": "host75",
+        "host_state": "HEALTHY",
+        "public_host_name": "host75.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 17020606,
+            "used": 33040000,
+            "percent": "34%",
+            "size": 50060607,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2088727
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster19",
+        "host_name": "host76",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host76.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 29016799,
+            "used": 21012164,
+            "percent": "57.99999999999999%",
+            "size": 50028964,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2075548
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster20",
+        "host_name": "host77",
+        "host_state": "HEALTHY",
+        "public_host_name": "host77.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 20012720,
+            "used": 30019080,
+            "percent": "40%",
+            "size": 50031801,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2031905
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster20",
+        "host_name": "host78",
+        "host_state": "HEALTHY",
+        "public_host_name": "host78.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 7513339,
+            "used": 42575593,
+            "percent": "15%",
+            "size": 50088933,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2051303
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster20",
+        "host_name": "host79",
+        "host_state": "HEALTHY",
+        "public_host_name": "host79.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 15004560,
+            "used": 35010640,
+            "percent": "30%",
+            "size": 50015201,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2088042
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster20",
+        "host_name": "host80",
+        "host_state": "INIT",
+        "public_host_name": "host80.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 3004552,
+            "used": 47071324,
+            "percent": "6%",
+            "size": 50075877,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2000335
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster21",
+        "host_name": "host81",
+        "host_state": "HEALTHY",
+        "public_host_name": "host81.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21027739,
+            "used": 29038306,
+            "percent": "42%",
+            "size": 50066046,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2043474
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster21",
+        "host_name": "host82",
+        "host_state": "HEALTHY",
+        "public_host_name": "host82.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 9004598,
+            "used": 41020946,
+            "percent": "18%",
+            "size": 50025545,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2055915
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster21",
+        "host_name": "host83",
+        "host_state": "HEALTHY",
+        "public_host_name": "host83.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18018480,
+            "used": 32032853,
+            "percent": "36%",
+            "size": 50051334,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2092053
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster21",
+        "host_name": "host84",
+        "host_state": "HEALTHY",
+        "public_host_name": "host84.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 19537158,
+            "used": 30558119,
+            "percent": "39%",
+            "size": 50095278,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2093106
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster22",
+        "host_name": "host85",
+        "host_state": "HEALTHY",
+        "public_host_name": "host85.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 21031784,
+            "used": 29043893,
+            "percent": "42%",
+            "size": 50075678,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2017175
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster22",
+        "host_name": "host86",
+        "host_state": "HEALTHY",
+        "public_host_name": "host86.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 5503082,
+            "used": 44524943,
+            "percent": "11%",
+            "size": 50028026,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2071240
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster22",
+        "host_name": "host87",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host87.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 15022473,
+            "used": 35052437,
+            "percent": "30%",
+            "size": 50074911,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2047756
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster22",
+        "host_name": "host88",
+        "host_state": "HEALTHY",
+        "public_host_name": "host88.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 3502184,
+            "used": 46529021,
+            "percent": "7.000000000000001%",
+            "size": 50031206,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2081120
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster23",
+        "host_name": "host89",
+        "host_state": "HEALTHY",
+        "public_host_name": "host89.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 17022090,
+            "used": 33042882,
+            "percent": "34%",
+            "size": 50064973,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2067279
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster23",
+        "host_name": "host90",
+        "host_state": "HEALTHY",
+        "public_host_name": "host90.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 14004746,
+            "used": 36012204,
+            "percent": "28.000000000000004%",
+            "size": 50016950,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2089092
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster23",
+        "host_name": "host91",
+        "host_state": "HEALTHY",
+        "public_host_name": "host91.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 16507299,
+            "used": 33514819,
+            "percent": "33%",
+            "size": 50022119,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2059003
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster23",
+        "host_name": "host92",
+        "host_state": "HEALTHY",
+        "public_host_name": "host92.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 18000025,
+            "used": 32000046,
+            "percent": "36%",
+            "size": 50000072,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2052365
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster24",
+        "host_name": "host93",
+        "host_state": "HEALTHY",
+        "public_host_name": "host93.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 9513122,
+            "used": 40555941,
+            "percent": "19%",
+            "size": 50069064,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2088020
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster24",
+        "host_name": "host94",
+        "host_state": "HEALTHY",
+        "public_host_name": "host94.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 2003341,
+            "used": 48080184,
+            "percent": "4%",
+            "size": 50083526,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2007716
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster24",
+        "host_name": "host95",
+        "host_state": "HEARTBEAT_LOST",
+        "public_host_name": "host95.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 1000426,
+            "used": 49020902,
+            "percent": "2%",
+            "size": 50021329,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2093412
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster24",
+        "host_name": "host96",
+        "host_state": "INIT",
+        "public_host_name": "host96.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 8508647,
+            "used": 41542222,
+            "percent": "17%",
+            "size": 50050870,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2054569
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster25",
+        "host_name": "host97",
+        "host_state": "HEALTHY",
+        "public_host_name": "host97.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 8011713,
+            "used": 42061497,
+            "percent": "16%",
+            "size": 50073211,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2006509
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster25",
+        "host_name": "host98",
+        "host_state": "HEALTHY",
+        "public_host_name": "host98.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 23537294,
+            "used": 26542055,
+            "percent": "47%",
+            "size": 50079350,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2025338
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster25",
+        "host_name": "host99",
+        "host_state": "HEALTHY",
+        "public_host_name": "host99.yourDomain.com",
+        "cpu_count": 2,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 13513114,
+            "used": 36535456,
+            "percent": "27%",
+            "size": 50048571,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2091430
+      }
+    },
+    {
+      "Hosts": {
+        "cluster_name": "cluster25",
+        "host_name": "host100",
+        "host_state": "HEALTHY",
+        "public_host_name": "host100.yourDomain.com",
+        "cpu_count": 1,
+        "rack_info": "rack-name",
+        "disk_info": [
+          {
+            "available": 10019385,
+            "used": 40077541,
+            "percent": "20%",
+            "size": 50096927,
+            "type": "ext4"
+          }
+        ],
+        "total_mem": 2066589
+      }
+    }
+  ]
+}

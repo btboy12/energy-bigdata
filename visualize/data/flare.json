@@ -1,0 +1,169 @@
+{
+  "name": "clast",
+  "children": [
+    {
+      "name": "rack",
+      "children": [
+        {"name": "host1", "value": 3938},
+        {"name": "host2", "value": 3812},
+        {"name": "host3", "value": 3812},
+        {"name": "host4", "value": 3812},
+        {"name": "lsi", "value": 6714},
+        {"name": "lsi", "value": 6714},
+        {"name": "pq", "value": 6714},
+        {"name": "flseg", "value": 6714},
+        {"name": "lsoi", "value": 6714},
+        {"name": "lsoi", "value": 6714},
+        {"name": "se", "value": 6714},
+        {"name": "awaw", "value": 6714},
+        {"name": "awaw", "value": 6714},
+        {"name": "awaw", "value": 6714},
+        {"name": "se", "value": 6714},
+        {"name": "aef", "value": 6714},
+        {"name": "iw", "value": 6714},
+        {"name": "lsi", "value": 743},
+        {"name": "lsi", "value": 743}
+      ]
+    },
+    {
+      "name": "cluster2",
+      "children": [
+        {"name": "host5", "value": 3938},
+        {"name": "host6", "value": 3938},
+        {"name": "ieseg", "value": 3938},
+        {"name": "se", "value": 3938},
+        {"name": "a", "value": 3812},
+        {"name": "sae", "value": 6714},
+        {"name": "qw", "value": 743}
+      ]
+    },
+    {
+      "name": "cluster3",
+      "children": [
+        {"name": "sae", "value": 3938},
+        {"name": "sae", "value": 3938},
+        {"name": "sae", "value": 3938},
+        {"name": "sawae", "value": 3812},
+        {"name": "sawae", "value": 3812},
+        {"name": "es", "value": 6714},
+        {"name": "es", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "es", "value": 743}
+      ]
+    },
+    {
+      "name": "cluster4",
+      "children": [
+        {"name": "pq", "value": 3938},
+        {"name": "psq", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "fwew", "value": 6714},
+        {"name": "fwew", "value": 6714},
+        {"name": "gew", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "wiis", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "agger", "value": 6714},
+        {"name": "agger", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "a", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "we", "value": 6714},
+        {"name": "agger", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "psq", "value": 6714},
+        {"name": "qw", "value": 743},
+        {"name": "qw", "value": 743},
+        {"name": "qw", "value": 743}
+      ]
+    },
+    {
+      "name": "cluster5",
+      "children": [
+        {"name": "us", "value": 3938},
+        {"name": "us", "value": 3938},
+        {"name": "pq", "value": 3812},
+        {"name": "pq", "value": 3812},
+        {"name": "sae", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "sae", "value": 6714},
+        {"name": "qw", "value": 743}
+      ]
+    },
+    {
+      "name": "cluster6",
+      "children": [
+        {"name": "esas", "value": 3938},
+        {"name": "se", "value": 3812},
+        {"name": "a", "value": 6714},
+        {"name": "aef", "value": 743}
+      ]
+    },
+    {
+      "name": "esxs",
+      "children": [
+        {"name": "qefw", "value": 3938},
+        {"name": "pq", "value": 3812},
+        {"name": "qws", "value": 6714},
+        {"name": "sae", "value": 743}
+      ]
+    },
+    {
+      "name": "esxs",
+      "children": [
+        {"name": "qefw", "value": 3938}
+      ]
+    },
+    {
+      "name": "os",
+      "children": [
+        {"name": "pq", "value": 3938},
+        {"name": "ie", "value": 3812},
+        {"name": "wiis", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "wa", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "aw", "value": 6714},
+        {"name": "esas", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "aqw", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "lsi", "value": 743}
+      ]
+    },
+    {
+      "name": "gew",
+      "children": [
+        {"name": "esas", "value": 3938},
+        {"name": "se", "value": 3812},
+        {"name": "a", "value": 6714}
+      ]
+    },
+    {
+      "name": "os",
+      "children": [
+        {"name": "pq", "value": 3938},
+        {"name": "ie", "value": 3812},
+        {"name": "wiis", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "wa", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "aqw", "value": 6714},
+        {"name": "us", "value": 6714},
+        {"name": "lsi", "value": 743}
+      ]
+    }
+  ]
+}
+
+

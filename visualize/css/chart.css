@@ -1,0 +1,33 @@
+/*
+** 节点图
+*/
+
+.node {
+    padding: 0 13px;
+    flex-grow: 1;
+    height: 100%;
+}
+
+#node_hosts {
+    height: 100%;
+}
+
+
+/*
+** 数据变化图
+*/
+
+.line_bottom {
+    width: 100%;
+    /* height: 130px; */
+    /*padding: 0 8px;*/
+    /* margin-top: 12px; */
+}
+
+#line {
+    /* width: 99%; */
+    /* height: 130px; */
+    /* position: relative; */
+    /*bottom: 10px;*/
+    /* z-index: 1; */
+}
