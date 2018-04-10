@@ -15,7 +15,7 @@
     "@types/select2": "^4.0.42",
     "@types/swiper": "^3.4.6",
     "@types/vue": "^2.0.0",
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "express-http-proxy": "^1.1.0",
     "iscroll": "^5.2.0",
     "select2": "^4.0.6-rc.1",
