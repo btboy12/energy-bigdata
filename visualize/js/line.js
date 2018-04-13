@@ -37,11 +37,11 @@ $(() => {
         dataset: {
             sourceHeader: false,
             dimensions: [{
-                    type: "time"
-                },
-                {
-                    type: "number"
-                }
+                type: "time"
+            },
+            {
+                type: "number"
+            }
             ]
         },
         xAxis: [{
@@ -102,6 +102,14 @@ $(() => {
     const fields = {
         cpu: "cpu/cpu_idle",
         disk: "disk/disk_free",
+        diskReadCount: "disk/read_count",
+        diskWriteCount: "disk/write_count",
+        loadOne: "load/load_one",
+        loadFive: "load/load_five",
+        pktsIn: "network/pkts_in",
+        pktsOut: "network/pkts_out",
+        procRun: "process/proc_run",
+        procTotal: "process/proc_total",
         memory: "memory/mem_free"
     }
 
@@ -112,7 +120,15 @@ $(() => {
     const getSource = {
         cpu: data => data.cpu.cpu_idle.map(([percent, time] = idle) => [100 - percent, time]),
         disk: data => data.disk.disk_free.map(([percent, time] = idle) => [100 - percent, time]),
+        diskReadCount: data => data.disk.read_count,
+        diskWriteCount: data => data.disk.write_count,
         memory: data => data.memory.mem_free.map(([byte, time] = idle) => [parseGB(byte), time]),
+        loadOne: data => data.load.load_one,
+        loadFive: data => data.load.load_five,
+        pktsIn: data => data.network.pkts_in,
+        pktsOut: data => data.network.pkts_out,
+        procRun: data => data.process.proc_run,
+        procTotal: data => data.process.proc_total
     }
 
     function show_line(host, field) {
@@ -127,13 +143,9 @@ $(() => {
             headers: {
                 Authorization: auth
             }
-        }).then(({
-            metrics
-        } = data) => {
+        }).then(({ metrics } = data) => {
             let source = [];
             metrics && getSource[field] && (source = getSource[field](metrics));
-
-            console.info(source);
 
             option.dataset.source = source.map(v => {
                 return [v[0], v[1] * 1000]

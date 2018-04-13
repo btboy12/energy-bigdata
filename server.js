@@ -27,8 +27,8 @@ let handler = [{
 // handler = [];
 
 const rack = [];
-const rack_num = 5;
-const host_num = 100;
+const rack_num = 3;
+const host_num = 20;
 
 const proxy_url = "ambari2.biu233.com";
 // const proxy_url = "192.168.31.201:10240";

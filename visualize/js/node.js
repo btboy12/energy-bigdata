@@ -3,7 +3,7 @@ const cluster = "ambari";
 
 function parseByte(byte) {
     const unit = ["KB", "MB", "GB"];
-    for (var i = 0; byte > 1024; i++, byte /= 1024);
+    for (var i = 0; byte > 1024; i++ , byte /= 1024);
     return byte.toFixed(2) + unit[i];
 }
 
@@ -144,7 +144,22 @@ function parseByte(byte) {
     });
 
     $(document).ready(function () {
-        $("#choose_param").select2();
+        $("#choose_param").select2({
+            data: [
+                { id: "cpu", text: "CPU Usage" },
+                { id: "disk", text: "Disk Usage" },
+                { id: "diskReadCount", text: "Disk Read Count" },
+                { id: "diskWriteCount", text: "Disk Write Count" },
+                { id: "loadOne", text: "Load One" },
+                { id: "loadFive", text: "Load Five" },
+                { id: "pktsIn", text: "Pkts In" },
+                { id: "pktsOut", text: "Pkts Out" },
+                { id: "procRun", text: "Proc Run" },
+                { id: "procTotal", text: "Proc Total" },
+                { id: "memory", text: "Memory Usage" },
+
+            ]
+        });
 
         $('#choose_param').on('select2:select', function ({
             params: {
