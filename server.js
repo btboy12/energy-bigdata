@@ -6,26 +6,25 @@ const app = express();
 // const port = 12345;
 const port = 9012;
 
-const handler = [
-    {
-        path: path_to_regexp("/api/v1/clusters/:cluster/hosts"),
-        handler: data => {
-            let items = data.items;
-            let res_items = [];
-            for (let i = 0; i < host_num; i++) {
-                let source = items[Math.floor(Math.random() * items.length)];
-                let source_host = Object.assign({}, source.Hosts, {
-                    rack_info: rack[Math.floor(Math.random() * rack_num)]
-                });
-                res_items.push(Object.assign({}, source, {
-                    Hosts: source_host
-                }));
-            }
-            data.items = res_items;
-            return data;
+let handler = [{
+    path: path_to_regexp("/api/v1/clusters/:cluster/hosts"),
+    handler: data => {
+        let items = data.items;
+        let res_items = [];
+        for (let i = 0; i < host_num; i++) {
+            let source = items[Math.floor(Math.random() * items.length)];
+            let source_host = Object.assign({}, source.Hosts, {
+                rack_info: rack[Math.floor(Math.random() * rack_num)]
+            });
+            res_items.push(Object.assign({}, source, {
+                Hosts: source_host
+            }));
         }
+        data.items = res_items;
+        return data;
     }
-];
+}];
+// handler = [];
 
 const rack = [];
 const rack_num = 5;
